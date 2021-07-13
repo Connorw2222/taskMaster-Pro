@@ -80,6 +80,8 @@ var taskP = $("<p>")
 var taskP = $("<p>")
     .addClass("m-1")
     .text(text);
+// replace textarea with P element.
+$(this).replaceWith(taskP);
 });
 
 // modal was triggered
