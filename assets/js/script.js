@@ -200,7 +200,7 @@ $(".card .list-group").sortable({
   out: function(event) {
     console.log("out", event.target);
   },
-  update: function(event) {
+  update: function() {
    // array to store the task data in
 var tempArr = [];
 
@@ -222,6 +222,4 @@ $(this).children().each(function() {
     date: date
   });
 });
-
 console.log(tempArr);
-
