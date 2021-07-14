@@ -98,7 +98,7 @@ $(".list-group").on("click", "span", function() {
     .addClass("form-control")
     .val(date);
 
-  // swap out elements
+  // swap out elemengit 
   $(this).replaceWith(dateInput);
 
   // automatically focus on new element
